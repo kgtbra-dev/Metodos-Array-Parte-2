@@ -37,7 +37,7 @@ const usuarios = [
     { id: 3, nome: "Carlos Souza", idade: 22}
 ];
 
-const apenasNomes = usuarios.map((usuarios) => usuario.nome);
+const apenasNomes = usuarios.map((usuarios) => usuarios.nome);
 
 console.log("Lista de nomes:", apenasNomes);
 console.log("\n");
