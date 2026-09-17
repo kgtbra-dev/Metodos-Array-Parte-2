@@ -48,9 +48,9 @@ console.log("\n");
 //-------------------------------------------------------------
 console.log("--- Exemplo 3: DTO e Sanitização de dados de API (Back-End real)");
 const produtosbanco = [
- {id: 101, none: "Teclado Mecânico RGB", preco: 250.0, estoque: 15, custointerno:120.0},
- { id: 102, none: "Mouse Gamer 16000 DPI", preco: 120.0, estoque: 0, custointerno: 50.0},
- { id: 103, none: "Monitor 144Hz IPS", preco: 1100.0, estoque: 8, custointerno: 700.0}
+ {id: 101, nome: "Teclado Mecânico RGB", preco: 250.0, estoque: 15, custointerno:120.0},
+ { id: 102, nome: "Mouse Gamer 16000 DPI", preco: 120.0, estoque: 0, custointerno: 50.0},
+ { id: 103, nome: "Monitor 144Hz IPS", preco: 1100.0, estoque: 8, custointerno: 700.0}
 ];
 
 //Regra de Back-End: formatar preço para o cliente e omitir dados sensiveis (custo interno)
